@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Response {
     private boolean isOk;
-    private int code;
+    private int status;
     private String message;
     private Object data;
 }
